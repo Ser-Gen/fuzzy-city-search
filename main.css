@@ -1,0 +1,85 @@
+body {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	margin: 0;
+}
+pre {
+	padding: 1em;
+	white-space: pre-wrap;
+}
+
+
+.CitySelectWindow__wrapper {
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 20px 30px 0;
+	height: 100%;
+	overflow: auto;
+}
+.CitySelectWindow__header {
+	color: #bbb;
+	cursor: default;
+	font-size: 18px;
+	line-height: 1em;
+	margin-bottom: 1.2em;
+}
+.Field--search {
+	display: inline-block;
+}
+.Field__input {
+	border: 1px solid #a6a6a6;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	font: inherit;
+	line-height: inherit;
+	padding: .367em;
+}
+.Field--search .Field__input {
+	width: 100%;
+}
+.CitySelectSearch__notice {
+	color: #999;
+	display: block;
+	font-size: 11px;
+	margin-top: 17px;
+	margin-bottom: 17px;
+}
+.CitySelectList {
+	line-height: 1em;
+	padding: 0;
+	margin: 0;
+}
+.CitySelectList:last-child {
+	margin-bottom: 20px;
+}
+.CitySelectList__box {
+	display: inline-block;
+	vertical-align: top;
+	margin: 0;
+	padding: 0;
+	max-width: 200px;
+}
+.CitySelectList__box--alphabet {
+	color: #bbb;
+	text-transform: uppercase;
+	margin-right: .5em;
+}
+.CitySelectList__item {
+	display: block;
+	margin: 0 0 1.3em 0;
+}
+li:first-child, dt:first-child, dd:first-child {
+	margin-top: 0;
+}
+.CitySelectList__item--main {
+	font-weight: bold;
+}
+.CitySelectList__box--cities .CitySelectList__link {
+	display: block;
+}
+.CitySelectList__region {
+	color: #999;
+	display: block;
+	font-size: 13px;
+	font-weight: normal;
+	margin-top: 5px;
+}
